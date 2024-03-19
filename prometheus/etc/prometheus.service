@@ -20,6 +20,7 @@ ExecStart=/home/ubuntu/nodeinfra-prometheus/prometheus \
   --web.enable-lifecycle
 #  --web.enable-admin-api
 
+# Prometheus logging configuration for sending logs to Loki
 StandardOutput=file:/var/log/prometheus/error.log
 StandardError=file:/var/log/prometheus/prometheus.log
 
