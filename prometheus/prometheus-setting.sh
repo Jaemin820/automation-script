@@ -2,7 +2,7 @@
 
 VERSION=2.51.0
 USERNAME=jaemin820
-PASSWORD=
+
 
 sudo apt-get install git -y
 
