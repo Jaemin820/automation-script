@@ -10,7 +10,8 @@ sudo apt-get install docker.io -y
 sudo systemctl start docker
 sudo chmod 666 /var/run/docker.sock
 
-git clone https://$USERNAME:$PASSWORD@github.com/nodeinfra/nodeinfra-prometheus.git
+# $USERNAME:$PASSWORD@
+git clone https://github.com/nodeinfra/nodeinfra-prometheus.git
 
 wget https://github.com/prometheus/prometheus/releases/download/v$VERSION/prometheus-$VERSION.linux-amd64.tar.gz
 tar -xvf prometheus-$VERSION.linux-amd64.tar.gz
