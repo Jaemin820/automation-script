@@ -16,7 +16,8 @@ startDate=$(date +%T)
 endDate=$(date +%T -d "+3 seconds")
 
 # Restart prometheus.service with systemctl
-sudo systemctl restart prometheus.service
+# sudo systemctl restart prometheus.service
+sudo systemctl kill -s HUP prometheus.service
 # Check if prometheus.service is up
 while [ "$(date +%T)" != "$endDate" ]; 
 do 
