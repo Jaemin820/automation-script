@@ -1,8 +1,6 @@
 #!/bin/bash
 
 VERSION=2.51.0
-USERNAME=jaemin820
-PASSWORD=test
 
 sudo apt-get install git -y
 
