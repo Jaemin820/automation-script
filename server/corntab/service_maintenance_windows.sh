@@ -1,6 +1,6 @@
 #!/bin/bash
 
-API_KEY="u+9-tfnbBPKxmvCvL2nA"
+API_KEY=""
 ICP_SEV1_SERVICE_ID=P8G97YQ
 
 # 매개변수로 요일을 받음

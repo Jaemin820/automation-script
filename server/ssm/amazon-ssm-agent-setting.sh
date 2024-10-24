@@ -1,7 +1,7 @@
 #!/bin/bash
 
-code="+6LjZaDKFGu1vhU/uIHN"
-id="e0b98076-4535-4515-aa5f-76223cf1e7c8"
+code=""
+id=""
 region="ap-northeast-2"
 name=$(hostname)
 
