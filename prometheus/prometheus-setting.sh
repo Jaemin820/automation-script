@@ -45,8 +45,8 @@ ExecStart=/home/ubuntu/nodeinfra-prometheus/prometheus \
   --web.enable-admin-api
 
 # Prometheus logging configuration for sending logs to Loki
-StandardOutput=file:/var/log/prometheus/error.log
-StandardError=file:/var/log/prometheus/prometheus.log
+StandardOutput=append:/var/log/prometheus/prometheus.log
+StandardError=append:/var/log/prometheus/prometheus.log
 
 [Install]
 WantedBy=multi-user.target
